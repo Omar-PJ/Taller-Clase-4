@@ -34,7 +34,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={{padding:15, fontSize:24, backgroundColor:'orange',color:'white', textAlign:'center'}}>
-        Suma de dos numeros
+        Calculadora de dos numeros
       </Text>
       <TextInput style={{padding:5,
       height:40,
