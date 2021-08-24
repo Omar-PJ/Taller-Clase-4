@@ -11,25 +11,25 @@ export default function App() {
       var a = parseFloat(var1);
       var b= parseFloat(var2);
       var c= a+b;
-      var resul="resultado:"+a+" + "+b+"="+c;
+      var resul="resultado: "+a+" + "+b+"="+c;
       setresultado(resul);}
     function Restar(var1,var2){
         var a = parseFloat(var1);
         var b= parseFloat(var2);
         var c= a-b;
-        var resul="resultado:"+a+"-"+b+"="+c;
+        var resul="resultado: "+a+"-"+b+"="+c;
         setresultado(resul);}  
     function Multiplicar(var1,var2){
           var a = parseFloat(var1);
           var b= parseFloat(var2);
           var c= a*b;
-          var resul="resultado:"+a+" x "+b+"="+c;
+          var resul="resultado: "+a+" x "+b+"="+c;
           setresultado(resul);}   
     function Dividir(var1,var2){
             var a = parseFloat(var1);
             var b= parseFloat(var2);
             var c= a/b;
-            var resul="resultado:"+a+" / "+b+"="+c;
+            var resul="resultado: "+a+" / "+b+"="+c;
             setresultado(resul);} 
   return (
     <View style={styles.container}>
